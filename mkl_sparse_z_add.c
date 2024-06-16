@@ -61,14 +61,14 @@ int main() {
     MKL_INT nrows = 3, ncols = 3;
 
     // First matrix
-    MKL_INT ia1[] = {0, 2, 4, 6};
-    MKL_INT ja1[] = {0, 1, 0, 2, 1, 2};
-    double a1[] = {1.0, 2.0, 3.0, 4.0, 5.0, 6.0};
+    MKL_INT ia1[] = {0, 2, 4, 5};
+    MKL_INT ja1[] = {1, 2, 0, 2, 1};
+    double a1[] = {1, 1, 4, 8, 9};
 
     // Second matrix
-    MKL_INT ia2[] = {0, 1, 3, 4};
-    MKL_INT ja2[] = {0, 1, 2, 1};
-    double a2[] = {7.0, 8.0, 9.0, 10.0};
+    MKL_INT ia2[] = {0, 2, 3, 5};
+    MKL_INT ja2[] = {0, 2, 1, 0, 2};
+    double a2[] = {1, -1, 3, 4, 6};
 
     // Result matrix
     MKL_INT *ia_res, *ja_res;
